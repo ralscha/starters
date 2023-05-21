@@ -5,7 +5,14 @@
   "projects": {
     "app": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:directive": {
+          "standalone": true
+        },
+        "@schematics/angular:pipe": {
+          "standalone": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -91,10 +98,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "schematicCollections": [
-      "@angular-eslint/schematics"
-    ]
   }
 }
