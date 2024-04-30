@@ -38,7 +38,7 @@
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "eslint": "8.53.0",
-    "local-web-server": "5.3.1",
+    "local-web-server": "5.3.3",
     "typescript": "5.1.6"
   }
 }
