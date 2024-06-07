@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "ionicblank18",
   "integrations": {},
-  "type": "angular"
+  "type": "angular-standalone"
 }

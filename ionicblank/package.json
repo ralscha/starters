@@ -1,44 +1,40 @@
 {
-  "name": "app",
+  "name": "ionicblank18",
   "version": "0.0.1",
+  "author": "Ionic Framework",
+  "description": "An Ionic project",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "lint": "ng lint",
-    "serve-dist": "ws --hostname localhost -d dist/app -p 1234 -o --log.format stats"
+    "test": "ng test",
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "16.2.12",
-    "@angular/common": "16.2.12",
-    "@angular/compiler": "16.2.12",
-    "@angular/core": "16.2.12",
-    "@angular/forms": "16.2.12",
-    "@angular/platform-browser": "16.2.12",
-    "@angular/platform-browser-dynamic": "16.2.12",
-    "@angular/router": "16.2.12",
-    "@ionic/angular": "7.5.5",
-    "ionicons": "7.3.1",
+    "@angular/animations": "18.0.2",
+    "@angular/common": "18.0.2",
+    "@angular/compiler": "18.0.2",
+    "@angular/core": "18.0.2",
+    "@angular/forms": "18.0.2",
+    "@angular/platform-browser": "18.0.2",
+    "@angular/platform-browser-dynamic": "18.0.2",
+    "@angular/router": "18.0.2",
+    "@ionic/angular": "8.2.1",
+    "ionicons": "7.4.0",
     "rxjs": "7.8.1",
-    "tslib": "2.6.2",
-    "zone.js": "0.13.1"
+    "tslib": "2.6.3",
+    "zone.js": "0.14.7"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "16.2.9",
-    "@angular-eslint/builder": "16.2.0",
-    "@angular-eslint/eslint-plugin": "16.2.0",
-    "@angular-eslint/eslint-plugin-template": "16.2.0",
-    "@angular-eslint/schematics": "16.2.0",
-    "@angular-eslint/template-parser": "16.2.0",
-    "@angular/cli": "16.2.9",
-    "@angular/compiler-cli": "16.2.12",
+    "@angular/build": "18.0.3",
+    "@angular/cli": "18.0.3",
+    "@angular/compiler-cli": "18.0.2",
+    "angular-eslint": "18.0.1",
     "@ionic/angular-toolkit": "11.0.1",
-    "@typescript-eslint/eslint-plugin": "5.62.0",
-    "@typescript-eslint/parser": "5.62.0",
-    "eslint": "8.53.0",
-    "local-web-server": "5.3.3",
-    "typescript": "5.1.6"
+    "eslint": "9.4.0",
+    "typescript": "5.4.5",
+    "typescript-eslint": "8.0.0-alpha.20"
   }
 }
