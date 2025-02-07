@@ -4,9 +4,10 @@ import {IonContent, IonHeader, IonTitle, IonToolbar} from '@ionic/angular/standa
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
-  standalone: true,
+  styleUrl: 'home.page.css',
   imports: [IonHeader, IonToolbar, IonTitle, IonContent],
 })
 export class HomePage {
+  constructor() {
+  }
 }
